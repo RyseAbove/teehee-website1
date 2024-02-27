@@ -10,11 +10,13 @@ blurring()
 
 function blurring() {
 
-    if (load > 98) {
+    load++
+    if (load > 99) {
         clearInterval(int)
     }
 
-    load++
+    
+
     loadText.innerText = `${load}%`
     loadText.style.opacity = 0.7
 
