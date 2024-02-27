@@ -1,5 +1,7 @@
 loadText = document.querySelector('.loadingText')
 
-loadText.innerText = "5%"
+load = 0
 
+loadText.innerText = `${load}%`
 
+loadText.style.opacity = 0.7
