@@ -3,9 +3,25 @@
 }
 
 body {
+    height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    margin: 0;
 }
 
+.header {
+    text-align: center;
+}
 
+.assignments {
+    position: absolute;
+    top: 30vh;
+    left: 0;
+}
+
+.background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
