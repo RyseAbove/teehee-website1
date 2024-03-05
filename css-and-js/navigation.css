@@ -16,6 +16,8 @@ body {
     margin: 0 auto;
 }
 
+
+/* hero image */
 .hero {
     background-image: url(images/yuh.jfif);
     background-repeat: no-repeat;
@@ -62,4 +64,14 @@ body {
     color: #444;
     line-height: 23px;
     letter-spacing: 1.2px;
+}
+
+
+.nav {
+    position: fixed;
+    background-color: #222;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out
 }
