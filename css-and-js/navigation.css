@@ -6,5 +6,7 @@
 }
 
 body {
-    color: #555;
+    color: #444;
+    padding-bottom: 50px;
+    font-family: "Consolas", sans-serif;
 }
