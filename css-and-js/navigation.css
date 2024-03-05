@@ -10,3 +10,12 @@ body {
     padding-bottom: 50px;
     font-family: "Consolas", sans-serif;
 }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    background-image: ;
+}
