@@ -17,5 +17,16 @@ body {
 }
 
 .hero {
-    background-image: url(css-and-js/images/cookie.jfif);
+    background-image: url(css-and-js/images/isaac.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
 }
