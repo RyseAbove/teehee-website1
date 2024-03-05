@@ -7,21 +7,66 @@ body {
     display: flex;
     justify-content: center;
     margin: 0;
+    background-color: #000068;
 }
 
 .header {
     text-align: center;
+    color: rgb(0, 170, 230);
 }
 
 .assignments {
     position: absolute;
     top: 30vh;
     left: 0;
+    color: rgb(0, 170, 230);
 }
 
-.background {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: -1;
+a, a:visited {
+    color: rgb(0, 170, 230);
+}
+
+.dropButton {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropButton:hover, .dropButton:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropContent{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropContent a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
 }
