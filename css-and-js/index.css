@@ -27,11 +27,11 @@ a, a:visited {
 }
 
 .dropButton {
-    background-color: #3498DB;
-    color: white;
+    background-color: rgb();
+    color: rgb(0, 170, 230);
     padding: 16px;
     font-size: 16px;
-    border: none;
+    border: solid 2px black;
     cursor: pointer;
 }
 
