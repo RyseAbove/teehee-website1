@@ -4,7 +4,7 @@
 :root {
     --primary-color: #ffa6a6;
     --secondary-color: #9e908b;
-    --modal-duration: 1s;
+    --modal-duration: 0.7s;
 }
 
 * {
@@ -139,7 +139,20 @@ button, input[type = 'submit'] {
     max-width: 100%;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
 }
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 
 .modal-header {
     background-color: var(--primary-color);
