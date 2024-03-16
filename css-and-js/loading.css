@@ -30,3 +30,7 @@ body {
     color: white;
     opacity: 1;
 }
+
+.homeButton {
+    display: none;
+}

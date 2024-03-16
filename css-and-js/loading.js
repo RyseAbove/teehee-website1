@@ -1,6 +1,6 @@
 loadText = document.querySelector('.loadingText')
-
 bg = document.querySelector('.background')
+
 
 load = 0
 
