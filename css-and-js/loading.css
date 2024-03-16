@@ -31,6 +31,15 @@ body {
     opacity: 1;
 }
 
-.homeButton {
-    display: none;
+.homeLink {
+    color: red;
+    text-decoration: underline;
 }
+
+.homeLink:hover {
+    color: white;
+}
+
+/* .homeButton {
+    display: none;
+} */

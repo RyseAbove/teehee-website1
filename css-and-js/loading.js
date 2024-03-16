@@ -1,7 +1,8 @@
 loadText = document.querySelector('.loadingText')
 bg = document.querySelector('.background')
+button = document.getElementById('homeButton')
 
-let button = false;
+let showButton = false;
 
 load = 0
 
@@ -11,6 +12,7 @@ blurring()
 
 function blurring() {
 
+    button = !button;
     load++
     if (load > 99) {
         clearInterval(int)
@@ -23,7 +25,11 @@ function blurring() {
 
     bg.style.filter = `blur(${30 - (load/100)*30}px)`
 
-    
-
 }
+
+// function buttonShow() {
+//     if (showButton) {
+//         button.classList.remove('homeButton')
+//     }
+// }
 
