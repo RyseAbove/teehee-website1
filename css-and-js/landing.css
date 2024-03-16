@@ -125,6 +125,10 @@ button, input[type = 'submit'] {
     display: none;
 }
 
+.modal-container.show-modal {
+    display: block;
+}
+
 .modal {
     background-color: white;
     position: absolute;
