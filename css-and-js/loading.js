@@ -1,6 +1,7 @@
 loadText = document.querySelector('.loadingText')
 bg = document.querySelector('.background')
 
+const button = bool()
 
 load = 0
 
