@@ -16,6 +16,10 @@ body {
     font-family: "roboto-mono", monospace;
 }
 
+body.show-nav {
+    transition: translateX(200px);
+}
+
 nav {
     background-color: var(--primary-color);
     position: fixed;
