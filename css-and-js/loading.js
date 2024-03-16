@@ -1,7 +1,7 @@
 loadText = document.querySelector('.loadingText')
 bg = document.querySelector('.background')
 
-const button = bool()
+let button = false;
 
 load = 0
 
@@ -22,6 +22,8 @@ function blurring() {
 
 
     bg.style.filter = `blur(${30 - (load/100)*30}px)`
+
+    
 
 }
 
